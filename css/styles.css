@@ -64,17 +64,12 @@ img {
     margin-right: 40px;
 }
 
-.list-two {
-    margin-right: 40px;
-}
-
-.list-three {
+.list-one:last-child {
     margin-right: 0;
 }
 
 .address-container {
     display: flex;
-
 }
 
 .address-one {
