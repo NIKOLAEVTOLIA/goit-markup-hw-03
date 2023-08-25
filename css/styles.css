@@ -39,16 +39,14 @@ img {
 .header-page {
     display: flex;
     height: 72px;
-
+    border-bottom: 1px solid var(--cornflower, #E7E9FC);
+    background: #FFF;
 }
 .header-container {
     display: flex;
     flex-shrink: 0;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid var(--cornflower, #E7E9FC);
-    background:#FFF;
-
 }
 
 .nav-container {
@@ -60,16 +58,32 @@ img {
 .list-container {
     display: flex;
     align-items: center;
-    column-gap: 40px;
+}
 
+.list-one {
+    margin-right: 40px;
+}
+
+.list-two {
+    margin-right: 40px;
+}
+
+.list-three {
+    margin-right: 0;
 }
 
 .address-container {
     display: flex;
-    column-gap: 40px;
 
 }
 
+.address-one {
+    margin-right: 40px;
+}
+
+.address-two {
+    margin-right: 0;
+}
 
 .logo {
     color: #4D5AE5;
@@ -85,13 +99,10 @@ img {
     display: inline-block;
     align-items: center;
     margin-right: 76px;
-
-
-
 }
+
 .logo-studio {
     color: #2E2F42;
-
 }
 
 
@@ -115,7 +126,6 @@ img {
 
 .address {
     font-style: normal;
-    gap: 40px;
 }
 
 .address-list{
@@ -130,7 +140,6 @@ img {
     align-items: center;
     justify-content: flex-end;
     padding: 24px 0;
-    
 }
 
 .address-list:hover,
@@ -157,7 +166,7 @@ img {
     letter-spacing: 1.12px;
     margin-right: auto;
     margin-left: auto;
-    width: 496px;
+    max-width: 496px;
     padding-bottom: 48px;
 
 }
@@ -180,6 +189,7 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin-right: auto;
     margin-left: auto;
+    min-width: 169px;
 }
 
 .button:hover, .button:focus {
@@ -196,7 +206,7 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-    white—space: nowrap;
+    white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -209,7 +219,7 @@ img {
 
 .skills-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 .skills-item {
     width: calc((100% - 72px) / 4); 
@@ -225,7 +235,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .skills-text {
@@ -254,16 +264,16 @@ img {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
+    gap: 24px;
 }
 
 
 .team-item {
-    margin-right: 24px;
     display: inline-flex;
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
@@ -316,7 +326,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -381,7 +391,7 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     display: inline-block;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .logo-foter-studio {
